@@ -17,10 +17,17 @@ public class Main {
             System.out.println("Which cave will you go into? (1 or 2)");
             answer = answerObj.nextLine();
             if (answer.equals("1")) {
-                System.out.println(answer);
+                System.out.println("you approach the cave...");
+                System.out.println("It is dark and spooky..");
+                System.out.println("A large dragon jumps out in front of you! He opens his jaws and...");
+                System.out.println("Gobbles you down in one bite!");
+
                 break;
             } else if (answer.equals("2")) {
-                System.out.println(answer);
+                System.out.println("you approach the cave...");
+                System.out.println("It is dark and spooky..");
+                System.out.println("A large dragon jumps out in front of you! He opens his jaws and...");
+                System.out.println("Yells hey man! you want some gold??!");
                 break;
             } else {
                 System.out.println("Please enter valid answer");
