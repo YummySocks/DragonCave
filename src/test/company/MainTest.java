@@ -12,11 +12,12 @@ class MainTest {
     void setUp() {
     }
 
-    @AfterEach
-    void tearDown() {
-    }
-
     @Test
     void main() {
+
+    }
+
+    @AfterEach
+    void tearDown() {
     }
 }
