@@ -4,20 +4,16 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static company.Main.guessLogic;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
 
-    @BeforeEach
-    void setUp() {
-    }
 
     @Test
     void main() {
-
+        assertEquals("1", guessLogic("2"));
     }
 
-    @AfterEach
-    void tearDown() {
-    }
+
 }
